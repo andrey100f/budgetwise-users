@@ -9,7 +9,7 @@ spring:
     name: users
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: mysql://root:TwgwfdiWlxNHcvQBOYHSwqwfWtcCkVKd@viaduct.proxy.rlwy.net:39418/railway
+    url: jdbc:mysql://root:TwgwfdiWlxNHcvQBOYHSwqwfWtcCkVKd@viaduct.proxy.rlwy.net:39418/railway
     username: root
     password: TwgwfdiWlxNHcvQBOYHSwqwfWtcCkVKd
     jpa:
