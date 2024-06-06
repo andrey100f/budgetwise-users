@@ -1,0 +1,20 @@
+eureka:
+  client:
+    service-url:
+      defaultZone: https://budget-wise-discovery-server-production.up.railway.app/eureka/
+server:
+    port: ${PORT}
+spring:
+  application:
+    name: users
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: mysql://root:TwgwfdiWlxNHcvQBOYHSwqwfWtcCkVKd@viaduct.proxy.rlwy.net:39418/railway
+    username: root
+    password: TwgwfdiWlxNHcvQBOYHSwqwfWtcCkVKd
+    jpa:
+      hibernate:
+        ddl-auto: none
+  cloud:
+    config:
+      enabled: false
