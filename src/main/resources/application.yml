@@ -12,9 +12,9 @@ spring:
     url: jdbc:mysql://root:TwgwfdiWlxNHcvQBOYHSwqwfWtcCkVKd@viaduct.proxy.rlwy.net:39418/railway
     username: root
     password: TwgwfdiWlxNHcvQBOYHSwqwfWtcCkVKd
-    jpa:
-      hibernate:
-        ddl-auto: none
+  jpa:
+    hibernate:
+      ddl-auto: none
   cloud:
     config:
       enabled: false
